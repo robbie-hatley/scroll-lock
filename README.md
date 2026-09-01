@@ -14,4 +14,9 @@ On most computers, the "Scroll Lock" key and LED are not actually used by the OS
 6. Exit from root and resume operations as normal user.
 7. Put the files "scroll-lock-toggle.sh" and "aleatoric.pl" someplace referred-to by your PATH, and make sure they're owned by your regular user and have permissions "0755" or "0775".
 8. Go into your desktop's settings and set keyboard shortcut "Scroll Lock" to trigger "scroll-lock-toggle.sh".
-9. Et voila, your Scroll Lock key and LED is now active. And if you have program "abeep" installed, your computer will emit aleatoric (random) music when you tap "Scroll Lock". (Tap "Scroll Lock" again to make it stop.)
+
+## Et voila!
+
+Congratulations, your Scroll Lock key and LED is now active. And if you have program "abeep" installed, your computer will emit aleatoric (random) music when you tap "Scroll Lock". (Tap "Scroll Lock" again to make it stop.)
+
+Or, you can substitute whatever other program you want for "aleatoric.pl". That's just one example of "something which can be toggled on and off by the Scroll Lock key".
