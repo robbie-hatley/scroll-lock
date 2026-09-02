@@ -9,6 +9,6 @@ if [[ -f "$pidfile" ]]; then
 else
     # Process is NOT running, so turn scroll-lock "on", launch process, and create process-id file:
     sudo /usr/local/sbin/scroll-lock/scroll-lock.sh on
-    aleatoric.pl &
+    ~/scroll-lock/aleatoric.pl &
     echo $! > "$pidfile"
 fi

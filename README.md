@@ -12,7 +12,7 @@ On most computers, the "Scroll Lock" key and LED are not actually used by the OS
 4. Execute command "SUDO_EDITOR=micro visudo -f /etc/sudoers.d/scroll-lock" (or substitute your favorite text editor for "micro").
 5. In the empty file that just popped up, write "MyUserName ALL=(root) NOPASSWD: /usr/local/sbin/scroll-lock/scroll-lock.sh on, /usr/local/sbin/scroll-lock/scroll-lock.sh off", substituting your actual user name for "MyUserName". Save and exit.
 6. Exit from root and resume operations as normal user.
-7. Put the files "scroll-lock-toggle.sh" and "aleatoric.pl" someplace referred-to by your PATH, and make sure they're owned by your regular user and have permissions "0755" or "0775".
+7. Put the files "scroll-lock-toggle.sh" and "aleatoric.pl" in "~/scroll-lock" and make sure that directory is in your PATH. Also make sure those two files are owned by your regular user and have permissions "0775".
 8. Go into your desktop's settings, in the "Keyboard Shortcuts" section, and set the "Scroll Lock" key to trigger the "scroll-lock-toggle.sh" script.
 
 ## Et voila!
