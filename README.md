@@ -13,12 +13,11 @@ On many computers, the "Scroll Lock" key and LED are not actually used by the OS
 5. In the file opened by visudo, write "MyUserName ALL=(root) NOPASSWD: /usr/local/sbin/scroll-lock/scroll-lock.sh on, /usr/local/sbin/scroll-lock/scroll-lock.sh off", substituting your actual user name for "MyUserName". Save and exit.
 6. Exit from root and resume operations as normal user.
 7. Put the files "scroll-lock-toggle.sh" and "aleatoric.pl" in "~/scroll-lock" and add that directory to your PATH. Also make sure those two files are owned by your regular user and have permissions "0755".
-8. Go into your desktop's settings, in the "Keyboard Shortcuts" section, and bind the "Scroll Lock" key to the absolute path of the "scroll-lock-toggle.sh" script (eg, "/home/MyUserName/scroll-lock/scroll-lock-toggle.sh").
-9. Install the program "abeep" on your system if you want the "aleatoric.pl" script to work correctly when the Scroll Lock key is toggled.
+8. Go into your desktop's settings, in the "Keyboard Shortcuts" section, and bind the "Scroll Lock" key to the absolute path of the "scroll-lock-toggle.sh" script (e.g., "/home/MyUserName/scroll-lock/scroll-lock-toggle.sh").
+9. Install the program "abeep" on your system if you want the "aleatoric.pl" script to emit aleatoric music when the Scroll Lock key is toggled.
 10. Save all open files, exit all running apps, log out of your GUI session, and log back in.
 
 ## Et voila!
 
-Congratulations, your Scroll Lock key and LED is now active. And if you have program "abeep" installed, your computer will emit aleatoric (random) music when you tap "Scroll Lock". (Tap "Scroll Lock" again to make it stop.)
-
+Congratulations, your Scroll Lock key and LED is now active. And if you have the "abeep" program installed, your computer will emit aleatoric (random) music when you tap "Scroll Lock". (Tap "Scroll Lock" again to make it stop.)
 Or, you can substitute whatever other program you want for "aleatoric.pl". That's just one example of "something which can be toggled on and off by the Scroll Lock key".
